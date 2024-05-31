@@ -362,7 +362,7 @@ function puzdata_to_nyt(xw, options) {
 
     var margin = options.margin;
 
-    var doc = new jsPDF('portrait', 'pt', 'letter');
+    var doc = new jsPDF('portrait', 'pt', 'a5');
 
 
     if (options.my_font.length > 0) {
